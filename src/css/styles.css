@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Karla';
+  src: local('Karla'),
+    url('../fonts/Karla/static/Karla-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Karla-Light';
+  src: local('Karla-Light'),
+    url('../fonts/Karla/static/Karla-Light.ttf') format('truetype');
+}
+
+body {
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla';
+  color: #a3ffff;
+}
+
+.single-price-grid-container {
+  margin: 70px 30px;
+}
+
+.community-section {
+  background-color: #ffffff;
+  border-radius: 5px 5px 0 0;
+}
+
+.subscription-section {
+  background-color: #2bb3b1;
+}
+
+.why-us-section {
+  background-color: #4abebd;
+  border-radius: 0 0 5px 5px;
+}
+
+.section {
+  padding: 33px 24px;
+}
+
+.section .title {
+  font-size: 16px;
+  color: hsl(204, 43%, 93%);
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.section .first-section-title {
+  color: #45a0a1;
+  margin-bottom: 28px;
+}
+
+.first-section-description {
+  color: #a0a7b1;
+  margin: 0;
+}
+
+.hightlight-text {
+  color: hsl(71, 73%, 54%);
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.highlight-price {
+  font-size: 28px;
+  margin: 0;
+}
+
+.highlight-price span {
+  font-size: 16px;
+  color: #6ecdd1;
+  font-family: 'Karla-Light';
+}
+
+.sign-up .btn {
+  padding: 18px 99px;
+  border-radius: 5px;
+  background-color: #bfdf32;
+  border: none;
+  color: #f7fedf;
+}
+
+.description-text {
+  line-height: 1.5;
+  font-family: 'Karla-Light';
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.why-us-section-description {
+  font-family: 'Karla-Light';
+  color: hsl(204, 43%, 93%);
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 5px;
+}
