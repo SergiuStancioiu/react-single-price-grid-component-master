@@ -60,6 +60,7 @@ body {
   color: hsl(71, 73%, 54%);
   margin: 0;
   margin-bottom: 26px;
+  font-weight: bold;
 }
 
 .highlight-price {
@@ -79,8 +80,12 @@ body {
   background-color: #bfdf32;
   border: none;
   color: #f7fedf;
+  width: 100%;
 }
 
+.sign-up {
+  width: 100%;
+}
 .description-text {
   line-height: 1.5;
   font-family: 'Karla-Light';
@@ -95,4 +100,83 @@ body {
   font-size: 13px;
   margin: 0;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 635px) {
+  body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .single-price-grid-container {
+    display: grid;
+    width: 637px;
+    margin: 163px 0;
+    border: 5px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      'community community'
+      'subscription why';
+  }
+
+  .community-section {
+    grid-area: community;
+  }
+
+  .subscription-section {
+    grid-area: subscription;
+    border-radius: 0 0 0 5px;
+  }
+
+  .why-us-section {
+    grid-area: why;
+    border-radius: 0 0 5px 0;
+  }
+
+  .description-text {
+    font-size: 16px;
+  }
+
+  .why-us-section-description {
+    font-size: 16px;
+  }
+
+  .section .title {
+    font-size: 20px;
+    font-family: 'Karla-Light';
+  }
+
+  .section .first-section-title {
+    font-size: 24px;
+    font-family: 'Karla';
+    margin-bottom: 36px;
+  }
+
+  .section {
+    padding: 0 36px;
+  }
+
+  .hightlight-text {
+    margin-bottom: 20px;
+  }
+
+  .first-section-description {
+    margin-bottom: 49px;
+  }
+
+  .section .title {
+    margin-top: 45px;
+  }
+
+  .why-us-section {
+    padding-bottom: 43px;
+  }
+
+  .why-us-section h1 {
+    margin-bottom: 20px;
+  }
 }
