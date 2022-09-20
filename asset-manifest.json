@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-single-price-grid-component-master/static/css/main.4c1857d6.css",
+    "main.js": "/react-single-price-grid-component-master/static/js/main.73f64ced.js",
+    "static/media/Karla-Light.ttf": "/react-single-price-grid-component-master/static/media/Karla-Light.df6515576f03d0943e66.ttf",
+    "static/media/Karla-Regular.ttf": "/react-single-price-grid-component-master/static/media/Karla-Regular.fa3a282cea1a68f3717d.ttf",
+    "index.html": "/react-single-price-grid-component-master/index.html",
+    "main.4c1857d6.css.map": "/react-single-price-grid-component-master/static/css/main.4c1857d6.css.map",
+    "main.73f64ced.js.map": "/react-single-price-grid-component-master/static/js/main.73f64ced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c1857d6.css",
+    "static/js/main.73f64ced.js"
+  ]
+}
